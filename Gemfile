@@ -6,7 +6,7 @@ gem 'middleman-gh-pages'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
-
+gem 'execjs', '~> 2.7'
 gem 'font-awesome-sass', '~> 5.13.0'
 
 group :test do
