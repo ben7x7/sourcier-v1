@@ -7,91 +7,91 @@
       <p>Sélectionner une expérience pour en savoir plus</p>
     </div>
     <div class="experiences">
-      <%= link_to methode_path, class: 'logo-links' do %>
+      <a class="logo-links" href="/methode.html">
         <div class="experience-card bg-methode">
           <div class="experience-icon">
-            <%= image_tag 'ikn-methode.WebP' %>
+            <img src="" alt="icone-methode">
           </div>
           <div class="experience-text">
             <h4 class="expe">methode</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to eau_path, class: 'logo-links' do %>
+      </a>
+      <a class="logo-links" href="/eau.html">
         <div class="experience-card bg-eau">
           <div class="experience-icon">
-            <%= image_tag 'ikn-eau.WebP' %>
+            <img src="" alt="icone-eau">
           </div>
           <div class="experience-text">
             <h4 class="expe">eau</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to electricite_path, class: 'logo-links' do %>
+      </a>
+      <a class="logo-links" href="/electricite.html">
         <div class="experience-card bg-electricite">
           <div class="experience-icon">
-            <%= image_tag 'ikn-electricite.WebP' %>
+            <img src="" alt="icone-electricité">
           </div>
           <div class="experience-text">
-            <h4 class="expe">electricite</h4>
+            <h4 class="expe">electricité</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to magnetisme_path, class: 'logo-links' do %>
+      </a>
+      <a class="logo-links" href="/magnetisme.html">
         <div class="experience-card bg-magnetisme">
           <div class="experience-icon">
-            <%= image_tag 'ikn-magnetisme.WebP' %>
+            <img src="" alt="icone-magnétisme">
           </div>
           <div class="experience-text">
-            <h4 class="expe">magnetisme</h4>
+            <h4 class="expe">magnétisme</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to ondes_path, class: 'logo-links' do %>
+      </a>
+      <a class="logo-links" href="/ondes.html">
         <div class="experience-card bg-ondes">
           <div class="experience-icon">
-            <%= image_tag 'ikn-ondes.WebP' %>
+            <img src="" alt="icone-ondes">
           </div>
           <div class="experience-text">
             <h4 class="expe">ondes</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to cristaux_path, class: 'logo-links' do %>
-        <div class="experience-card bg-cristals">
+      </a>
+      <a class="logo-links" href="/cristaux.html">
+        <div class="experience-card bg-cristaux">
           <div class="experience-icon">
-            <%= image_tag 'ikn-cristaux.WebP' %>
+            <img src="" alt="icone-cristaux">
           </div>
           <div class="experience-text">
-            <h4 class="expe">cristaux</h4>
+            <h4 class="expe">crystaux</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to conducteur_path, class: 'logo-links' do %>
-        <div class="experience-card bg-conducteur">
+      </a>
+      <a class="logo-links" href="/conducteurs.html">
+        <div class="experience-card bg-conducteurs">
           <div class="experience-icon">
-            <%= image_tag 'ikn-conducteur.WebP' %>
+            <img src="" alt="icone-conducteur">
           </div>
           <div class="experience-text">
             <h4 class="expe">conducteurs</h4>
           </div>
         </div>
-      <% end %>
-      <%= link_to biologie_path, class: 'logo-links' do %>
+      </a>
+      <a class="logo-links" href="/biologie.html">
         <div class="experience-card bg-biologie">
           <div class="experience-icon">
-            <%= image_tag 'ikn-biologie.WebP' %>
+            <img src="" alt="icone-biologie">
           </div>
           <div class="experience-text">
             <h4 class="expe">biologie</h4>
           </div>
         </div>
-      <% end %>
+      </a>
     </div>
   </div>
 </div>
 <div class="banner-sciences">
-  <%= image_tag 'home-1.WebP' %>
+  <img src="https://res.cloudinary.com/bessiere/image/upload/v1666950239/sourcier/sciences.webp" alt="sciences">
 </div>
 <div class="section" id="info">
   <div class="sub-section">
@@ -102,9 +102,9 @@
       Cette étude fait suite à celle que j’ai entreprise pour la caractérisation du parcours de l’eau et la découverte de structures disparues au Château de Fontainebleau. Les résultats font l’objet du site eauduparc.com:
     </p>
     <div class="images text-center">
-      <%= link_to "https://www.eauduparc.com", target: :_blank do %>
-        <%= image_tag 'home-2.WebP' %>
-      <% end %>
+      <a href="https://www.eauduparc.com">
+        <img src="https://res.cloudinary.com/bessiere/image/upload/v1666950247/sourcier/eauduparc.webp" alt="site eauduparc.com" target="_blank">
+      </a>
     </div>
     <p>
       J’ai voulu sur ce site montrer les possibilités qu’offrent les baguettes de sourcier dans des secteurs différents qui touchent à la Physique, à la Chimie et un peu à la Biologie.
@@ -116,7 +116,7 @@
       Les baguettes étant depuis longtemps utilisées par les mineurs pour la détection des métaux, j’ai cherché à savoir comment les différencier selon leur nature et comment on pouvait détecter des pièces fausses. Tester l’efficacité des isolants solides et liquides et suivre des réactions chimiques entrainant des changements de conductivité ont été abordés.
     </p>
     <div class="image">
-      <%= image_tag 'home-3.WebP' %>
+      <img src="XXXXXXXXXXXX" alt="home-3">
     </div>
     <p>
       A ma connaissance peu d‘expériences ont été menées sur les cristaux, en particulier sur les sulfures conducteurs tel que la pyrite et la galène et sur la magnétite Fe<sub>3</sub>O<sub>4</sub>. Leurs axes de symétrie et leur orientation ont été déterminés.
@@ -145,14 +145,9 @@
   </div>
   <div class="contact-body">
     <h5>Pour poser toutes vos questions ou commentaires</h5>
-    <%= link_to 'mailto:jmbessiere@gmail.com',
-      id: 'mail-contact',
-      data: {   controller: 'trackers',
-                event: 'Contact',
-                action: 'click->trackers#activateTracker'
-      } do %>
+    <a id="mail-contact" data-controller="trackers" data-event="Contact" data-action="click->trackers#activateTracker" href="mailto:jmbessiere@gmail.com">
       <i class="far fa-envelope fa-5x"></i>
-    <% end %>
+    </a>
   </div>
 </div>
 
