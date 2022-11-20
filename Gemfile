@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'middleman'
 gem 'middleman-autoprefixer'
-gem 'middleman-gh-pages'
+gem 'middleman-gh_pages'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
