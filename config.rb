@@ -44,4 +44,11 @@ configure :build do
   activate :relative_assets
 end
 
-activate :metaman, host: 'https://domain.com'
+# To deploy to a remote branch via git (e.g. gh-pages on github):
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:an_absolute/github_remote_name.git'
+  gh_pages.branch = 'master'
+end
+
+
+activate :metaman, host: 'https://sourcieramateur.fr'
