@@ -45,9 +45,11 @@ configure :build do
 end
 
 # To deploy to a remote branch via git (e.g. gh-pages on github):
-activate :gh_pages do |gh_pages|
-  gh_pages.remote = 'git@github.com:an_absolute/github_remote_name.git'
-  gh_pages.branch = 'main'
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+
 end
 
 
